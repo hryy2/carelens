@@ -4,7 +4,7 @@ An AI assistant that helps older New Zealanders understand the things in front o
 
 Point the camera and ask out loud, upload a photo of a document, or paste a suspicious message. CareLens explains it back in plain language and reads the answer aloud.
 
-**Live demo:** [add your deployed URL here]
+**Live demo:** https://carelens-yslu.onrender.com/
 
 ---
 
