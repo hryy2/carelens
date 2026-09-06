@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root,
+html {
+  font-size: 19px; /* Default senior-friendly large */
+  transition: font-size 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root[data-font-size="normal"],
+html[data-font-size="normal"],
+body[data-font-size="normal"] {
+  font-size: 16px;
+  zoom: 1;
+}
+
+:root[data-font-size="large"],
+html[data-font-size="large"],
+body[data-font-size="large"] {
+  font-size: 19px;
+  zoom: 1.15;
+}
+
+:root[data-font-size="extra-large"],
+html[data-font-size="extra-large"],
+body[data-font-size="extra-large"] {
+  font-size: 23px;
+  zoom: 1.32;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Lexend', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+/* Custom animation for active listening/speaking indicators */
+@keyframes voice-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+.animate-voice-pulse {
+  animation: voice-pulse 1.8s ease-in-out infinite;
+}
+
+/* Accessible focus ring for elderly touch and keyboard navigation */
+*:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}

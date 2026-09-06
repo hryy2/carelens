@@ -1,0 +1,11 @@
+{
+  "name": "CareLens",
+  "description": "CareLens is a senior-friendly AI assistant tailored for elderly individuals to easily understand appliances, official letters, and detect scam messages with instant voice guidance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
