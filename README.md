@@ -97,7 +97,7 @@ cp .env.example .env.local   # add your GEMINI_API_KEY
 npm run dev
 ```
 
-Get a key from [Google AI Studio](https://aistudio.google.com/apikey). The free tier is enough to try it; the live camera model has a generous request allowance, while the text and image models are capped per day.
+A Gemini API key is required — see the [Gemini API documentation](https://ai.google.dev/gemini-api/docs/api-key) for how to create one. The free tier is enough to try it: the live camera model has a generous request allowance, while the text and image models are capped per day.
 
 ## Deploying
 
