@@ -2,28 +2,28 @@
 
 :root,
 html {
-  font-size: 19px; /* Default senior-friendly large */
-  transition: font-size 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  font-size: 16px; /* Default senior-friendly large */
+  transition: zoom 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 :root[data-font-size="normal"],
 html[data-font-size="normal"],
 body[data-font-size="normal"] {
-  font-size: 16px;
+  /* font-size: 16px; */
   zoom: 1;
 }
 
 :root[data-font-size="large"],
 html[data-font-size="large"],
 body[data-font-size="large"] {
-  font-size: 19px;
+  /* font-size: 19px; */
   zoom: 1.15;
 }
 
 :root[data-font-size="extra-large"],
 html[data-font-size="extra-large"],
 body[data-font-size="extra-large"] {
-  font-size: 23px;
+  /* font-size: 23px; */
   zoom: 1.32;
 }
 

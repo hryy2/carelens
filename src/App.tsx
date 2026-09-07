@@ -251,7 +251,7 @@ export default function App() {
 
       {/* Main Content Area */}
       <main
-        className={`flex-1 w-full mx-auto ${
+        className={`flex-1 w-full  overflow-x-clip mx-auto ${
           currentMode === 'document' || currentMode === 'scam' || currentMode === 'camera'
             ? 'max-w-[1200px] px-6 py-6'
             : 'max-w-6xl p-4 sm:p-6 lg:p-8'
