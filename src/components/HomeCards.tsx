@@ -79,7 +79,7 @@ export const HomeCards: React.FC<HomeCardsProps> = ({
       </section>
 
       {/* 3 CORE ACTION CARDS: Crisp white cards on warm yellow background */}
-      <section className="relative z-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-7">
+      <section className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-7">
         {/* CARD 1: UNDERSTAND AN ITEM (GREEN ACCENT) */}
         <div
           id="card-camera-mode"
